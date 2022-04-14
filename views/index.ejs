@@ -1,0 +1,65 @@
+<%- include("header"); -%> 
+
+<section class="mid-section" >
+    <div class="middle">
+      <div class="first">
+        <h1 class="heading"><em>Welcome to</em></h1>
+        <h1 class="sub-heading"><em>The Sparks Bank</em></h1>
+
+        <i class="fa-solid fa-building-columns fa-5x mid-icon"></i>
+        <p class="first-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, necessitatibus.
+          Mollitia itaque
+          commodi maiores cupiditate molestias facere ipsum fugit eaque quos labore
+        <p>
+        <h3>Available For Download</h3>
+        <button class="first-btn"><i class="fa-brands fa-android "></i>Download</button>
+        <button class="second-btn"><i class="fa-brands fa-apple "></i>Download</button>
+
+
+      </div>
+      <div class="second">
+        <h1>Are You New Here?</h1>
+        <h2>Register Yourself!</h2>
+        <form action="/register" method="get">
+          <button type="submit">Create Account</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="service" id="service">
+    <h1 class="service-heading">Our Services</h1>
+    <div class="options">
+      <div class="customer">
+        <!-- image -->
+        <img src="customer.jpg" alt="">
+        <form action="/customers" method="get">
+          <div>
+            <button>View Customers</button>
+          </div>
+        </form>
+
+      </div>
+      <div class="transfer">
+        <!-- image -->
+        <img src="transfer.png" alt="">
+        <form action="/transfer" method="get">
+          <div>
+            <button>Money Transfer</button>
+          </div>
+        </form>
+
+      </div>
+      <div class="history">
+        <!-- image -->
+        <img src="history.png" alt="">
+        <form action="/history" method="get">
+          <div>
+            <button>Transection History</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+<%- include("footer"); -%> 
